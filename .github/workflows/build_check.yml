@@ -33,6 +33,9 @@ jobs:
             conda list
             ls /home/runner/miniconda
             ls /home/runner/miniconda/bin
+            
+            python --version
+            
             which pip
             
             pip install .
