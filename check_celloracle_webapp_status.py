@@ -24,7 +24,7 @@ def check_web_site_status(url, print_detail=False):
 def main():
     status, comment = check_web_site_status(url="https://celloracle.org/", print_detail=False)
     print(comment)
-    #assert(status)
-    assert(False)
+    assert(status)
+    
 if __name__ == "__main__":
     main()
