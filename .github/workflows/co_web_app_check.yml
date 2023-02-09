@@ -15,5 +15,5 @@ jobs:
         run: |
             python --version
             ls
-            python check_celloracle_webapp_status.py# command to run tests
+            python check_celloracle_webapp_status.py
 
