@@ -2,7 +2,7 @@ name: celloracle_web_app_hourly_test
 
 on:
   schedule:
-    - cron: '16 * * * *'
+    - cron: '*/6 * * * *'
 
 jobs:
   build_and_test:
