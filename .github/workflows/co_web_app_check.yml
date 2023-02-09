@@ -2,7 +2,7 @@ name: celloracle_web_app_hourly_test
 
 on:
   schedule:
-    - cron: '3 * * * *'
+    - cron: '* * * * *'
   workflow_dispatch:
 
 jobs:
