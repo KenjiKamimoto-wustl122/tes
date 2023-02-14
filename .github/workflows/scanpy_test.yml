@@ -28,7 +28,8 @@ jobs:
             # command to install dependencies
             conda activate test-environment
             conda install cython numpy pytest
-            pip install scanpy matplotlib<3.7
+            pip install scanpy
+            pip install matplotlib<3.7
             
             conda list
             
