@@ -1,4 +1,4 @@
-name: celloracle_weekly_build_and_test_python3.10
+name: celloracle_test_python3.10
 
 on:
   schedule:
@@ -37,7 +37,7 @@ jobs:
             
             which pip
             #Install fa2 for tutorial
-            pip install fa2
+            #pip install fa2
             # Install CellOracle
             git clone https://github.com/morris-lab/CellOracle.git
             cd CellOracle
