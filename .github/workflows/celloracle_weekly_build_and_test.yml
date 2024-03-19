@@ -1,4 +1,4 @@
-name: celloracle_test_python3.10
+name: celloracle_test_python3.11
 
 on:
   schedule:
